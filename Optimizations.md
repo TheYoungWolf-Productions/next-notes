@@ -20,7 +20,7 @@ There are three ways to reuse the head logic to avoid repitition.
 #### Images
 In order to optimize images, we can simply use Image element provided by next. 
 
-`import Image from 'next/image'
+`import Image from 'next/image'`
 
 - This will create multiple versions of images, optimized for devices which requests are sending it. 
 - The Image JSX tag takes in src, alt, height and width. The width and height provided here only determines the dimension of the image that will be fetched and not the width and height of the acutal image that will show up. For that, normal css will work. 
