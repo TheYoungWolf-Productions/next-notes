@@ -72,7 +72,8 @@ This technique is most useful when the content is relatively static in nature, m
 
 NextJs has a feature called **Incremental Static Generation** wherein we can decide to *Regenerate a page on every request if X seconds have elapsed since last generation*.
 
-![[Screenshot 2022-11-28 at 10.30.07 PM.jpg]]
+![Screenshot 2022-11-28 at 10 30 07 PM](https://user-images.githubusercontent.com/68595463/207384616-e3fb1631-8aaa-4ab4-a96c-b64b61cf9ff7.jpg)
+
 To leverage this, in the return object of getStatic props function, we can pass a `revalidate` key with seconds as value. This value will determine whether to re-generate a page (depending on whether the said number of seconds had elapsed since last generation)
 
 Other keys in this return object could be `notFound: boolean` and `redirect: {destination: string}` 
