@@ -2,7 +2,8 @@
 
 We let Next infer the route structure from the folder structure in the `pages` folder as opposed to Code-based routing (in case of usual React)
 
-![[Screenshot 2022-11-25 at 7.05.08 PM.jpg]]
+
+![Screenshot 2022-11-25 at 7 05 08 PM](https://user-images.githubusercontent.com/68595463/207383923-1d1c869f-58c5-4684-83cb-5061adba532f.jpg)
 
 --- 
 
@@ -50,6 +51,7 @@ console.log(router.query) // { slug: [2, 42, 'something']}
 ```
 
 ---
+
 #### Navigation
 
 ##### Navigate using Links
